@@ -6,7 +6,7 @@
 import SwiftUI
 
 @main
-struct IOS_LAB_2SEMApp: App {
+struct IOSLAB2SEMApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -11,9 +11,9 @@ struct ProfileControllerWrapper: UIViewControllerRepresentable {//связь м�
     let user: User
 
     func makeUIViewController(context: Context) -> ProfileViewController { //вызывается один раз при создании
-        let vc = ProfileViewController() //создаем контроллер
-        vc.configure(user: user, followViewModel: viewModel) //настраиваем польз и подписку
-        return vc
+        let profileController = ProfileViewController() //создаем контроллер
+        profileController.configure(user: user, followViewModel: viewModel) //настраиваем польз и подписку
+        return profileController
     }
 
     //обновление контроллера всегда когда меняются данные
