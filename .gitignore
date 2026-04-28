@@ -1,0 +1,14 @@
+# Xcode / user data
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+.DS_Store
+
+# Build artifacts
+DerivedData/
+UIComponents/.build/
+.build/
+
+# SwiftPM caches
+**/SourcePackages/checkouts/
+**/SourcePackages/repositories/
